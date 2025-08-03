@@ -1,0 +1,31 @@
+.body{
+    border:2px solid black;
+    height: 90vh;
+    width: 70vw;
+    color: white;
+    margin: auto;
+    background-color: aliceblue;
+    position: relative;
+}
+.box1{
+   height:10vh; 
+   width: 50vw;
+   background-color: blue;
+   margin: auto;
+   position: absolute;
+}
+.box2{
+    height:10vh; 
+    width: 50vw;
+    background-color: yellow;
+    margin: auto; 
+    z-index: 4px;
+}
+.box3{
+    height:10vh; 
+    width: 50vw;
+    background-color: red;
+    margin: auto;
+    position: relative;
+    left: 30px;
+}

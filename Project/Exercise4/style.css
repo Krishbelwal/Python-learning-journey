@@ -1,0 +1,51 @@
+body{
+    background-color: aliceblue;
+}
+.body {
+    height: 510px;
+    width: 869px;
+    margin: auto;
+    background-color: rgba(110, 110, 235, 0.831);
+    color: black;
+    margin-top: 150px;
+}
+
+.logo {
+    height: 20px;
+    width: 23px;
+    background-color: rgba(88, 88, 238, 0.831);
+    margin-left: 28px;
+    position: relative;
+    bottom: -39px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+ul{
+    margin-left: 190px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li{
+    font-weight: 800;
+    list-style: none;
+}
+.Body2{
+    background-color: white;
+    height: 410px;
+}
+.cover{
+    margin-top: 50px;
+    margin-left: 28px;
+    position: relative;
+    bottom: -45px;
+}
+h1{
+    font-style: inherit;
+    font-weight: 800;
+}
+p{
+    width: 79px;
+    height: 25px;
+    text-align: center;
+    background-color:white;
+}

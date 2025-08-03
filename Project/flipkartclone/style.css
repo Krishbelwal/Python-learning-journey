@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.border:hover {
+    border: 2px solid black;
+    padding: 4px;
+}
+
+.nav {
+    height: 66px;
+    width: 1632.85px;
+    background-color: white;
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-1 {
+    position: relative;
+    left: -34px;
+    margin-top: 8px;
+    background-size: contain;
+}
+
+/* 2 */
+.search {
+    /* background-color:rgb(169, 225, 225);
+   width: 285px;
+   height: 40px;  */
+}
+
+input {
+    background-color: rgb(169, 225, 225);
+    width: 773px;
+    height: 40px;
+    border: none;
+}
+
+input::placeholder {
+    text-align: center;
+    font-size: large;
+}
+
+/* 3 */
+.login {
+    margin-left: 90px;
+    height: 73px;
+    width: 34px;
+}
+
+label {
+    font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+}
+
+.shoping-logo {
+    height: 60px;
+    width: 60px;
+    margin-left: 45px;
+    position: relative;
+    bottom: -18px;
+
+}
+
+.option {
+    width: 40px;
+    height: -25px;
+}
+
+/* Hero */
+.Box1 {
+    min-height: 165px;
+    width: 96%;
+    margin: auto;
+    background-color: white;
+    color: black;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    word-spacing: 30px;
+}
+
+.Mobile {
+    position: relative;
+    left: 16px;
+}
+
+.Mobile {
+    position: relative;
+    left: 16px;
+}
+
+.fashion {
+    position: relative;
+    left: 20px;
+    top: 4px;
+}
+
+.image {
+    width: 96%;
+    margin: auto;
+    margin-top: 23px;
+}
+
+/* shadow or scrolling wala sikhe fr aage  */
+.Box2{
+    min-height: 350px;
+    width: 96%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+h2{
+    position: relative;
+    left: 20px;
+    top: -142px;
+}
+.from{
+    font-size: large;
+    font-weight: 900;
+}
+.hello{
+    margin-left: 0;
+}
