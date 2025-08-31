@@ -5,33 +5,35 @@ a = "Krish"
 # # it's use when we have to find out the string length
 # print(len(a))
 
-# print(a.endswith("sh"))
-
 # #  upper()
 # print(a.upper())
 
 # #  lower()
 # print(a.lower())
 
-# #  replace()
+# b = "Krish!!!!!"
+# print(b.rstrip("!"))
+
+# replace()
 # print(a.replace("Krish", "Harry"))
 
 # # split()- it is  used  when we have to change string into a list.
+# jha jha space vha se list created
 b = "my name is krishna krishna Belwal"
 # print(b.split())
-
-# # captalize()- it changes string first occurance to uppercase and other occurances to  lowercase.
+# 
+# captalize()- it changes string first occurance to uppercase and other occurances to  lowercase.
 # print(b.capitalize())
 
 # # center
-print(b.center(50))
+# print(b.center(50))
 
 # # count
 # print(b.count("k"))
 
 # find()
-print(b.find("n"))
-print(b.find("name"))
+# print(b.find("n"))
+# print(b.find("name"))
 
 # index
 # print(b.index("Belwal"))
@@ -41,7 +43,7 @@ print(b.find("name"))
 # print(b.endswith("Belwal")) 
 
 # isalnum
-# D = "mynameiskr" "ishnabelwal"
+# D = "mynameiskr45S" "ishnabelwal"
 # print(D.isalnum())
 
 # isalpha- sif character not numerbers
@@ -49,11 +51,25 @@ print(b.find("name"))
 
 # islower , isprintable
 # print(D.islower())
-# print(D.isprintable())
+# print(b.isprintable())  # if all values printable then true
+# E = "mynameiskr45\nS" "ishnabelwal"
+# print(E.isprintable())
 #  isspace - jb string white space 
 K = " "
 # print(K.isspace())
-# istitle-
-# M =  "Iam A Good Boy"
-# print(M.istitle())
+
+# istitle- title ki tarah upper case m h ya nhi
+M =  "Iam a Good Boy"
+print(M.istitle())
+
+# isupper -
+# print(M.isupper()) 
+
+# startswith -
+# print(M.startswith("I"))
+# print(M.startswith("J"))
+
+# swapcase - it converts 
+# print(M.swapcase())
+
 

@@ -49,7 +49,7 @@ l=[3,5,6,5,5]
 # l.extend(m)
 # print(l)
 
-# l.remove(6)#8  # which value have to remove not index
+# l.remove(6) #8 which value have to remove not index
 # print(l)
 
 # l.pop(2) # 9 which index value have to remove 

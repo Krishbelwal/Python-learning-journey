@@ -15,11 +15,11 @@
 # print(newline)
 
 # filter-
-# filter_fun = lambda a: a>4
-# l = [1,3,4,5,6,9,8]
-# newnewline = list(filter(filter_fun , l))
-# newnewline = list(filter(lambda a: a>4 , l))
-# print(newnewline)
+filter_fun = lambda a: a>4
+l = [1,3,4,5,6,9,8]
+newnewline = list(filter(filter_fun , l))
+newnewline = list(filter(lambda a: a>4 , l))
+print(newnewline)
 
 # reduce-
 # from functools import reduce
@@ -28,6 +28,6 @@
 # sum = reduce(lambda x,y: x+y , Num)
 # print(sum)
 
-import functools
-print(functools.__file__)
+# import functools
+# print(functools.__file__)
 

@@ -1,3 +1,4 @@
 import requests
-requests = requests.get("https://www.google.com")
-print(responce.text)
+# responce = requests.get("https://www.codewithharry.com")
+url= "https://jsonplaceholder.typicode.com/posts"
+# responce = requests.post(url , headers=headers ,json=data )

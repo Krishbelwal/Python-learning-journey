@@ -15,4 +15,6 @@
 # Ex-
 a = 45.0
 b = 56
-print(a + b)
+# print(a + b)
+c = int(a)
+print(c)
